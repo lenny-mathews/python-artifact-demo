@@ -21,7 +21,7 @@ jobs:
         run : python3 --version
 
       - name : Run Python program
-        run  : python app.py
+        run  : python3 app.py
       - name : Show generated file
         run : cat result.txt
 
